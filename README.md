@@ -6,6 +6,8 @@ A short, optional slide set meant to help users with publishing their new site t
 
 Created by [Marli Bells](http://twitter.com/FakeRobot) for Ladies Learning Code - Saskatoon.
 
+**Note:** Some of the material in these slides in time and location sensitive. The slide deck was initially created for Learn to Code Day 2014 (Sept 27th) in Saskatoon, SK.
+
 **Instructors:** Please refer to https://github.com/ladieslearningcode/llc-slidedeck-template for instructions for customization of the slide deck and features. If there are any issues or fixes required for this workshop slide presentation, please open an issue, submit a pull request or email [marli@ladieslearningcode.com](mailto:marli@ladieslearningcode.com).
 
 **Workshop attendees:** click the "Download zip" button to the right to download the slides. Open **index.html** to view the slides in your browser. Project files can be found in the **Project** folder.
