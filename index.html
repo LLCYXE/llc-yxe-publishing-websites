@@ -1,1 +1,197 @@
-My GitHub Page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Ladies Learning Code: Publishing Your New Site</title>
+    <!-- Don't alter slideshow.css, CSSS slide deck needs it to work -->
+    <link rel="stylesheet" href="framework/css/slideshow.css">
+
+    <!-- Theme-specific styles -->
+    <link href='http://fonts.googleapis.com/css?family=Quicksand|Pacifico|Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="framework/css/font-awesome.css">
+    <link rel="stylesheet" href="framework/css/highlightjs-themes/monokai.css">
+    <link rel="stylesheet" href="framework/css/theme-llc.css">
+    <link rel="shortcut icon" href="framework/img/favicon.ico"> 
+
+    <!-- Workshop-specific styles -->
+    <link rel="stylesheet" href="framework/css/workshop.css">
+
+    <!-- Takes care of CSS3 prefixes! -->
+    <script src="framework/scripts/prefixfree.min.js"></script>
+</head>
+
+<!-- Timer/progress bar: Define the presentation duration using "data-duration" in minutes. -->
+<body data-duration="360">
+    
+    <base target="_blank">
+
+    <!-- First/Intro slide -->
+    <header class="intro slide">
+    <img class="logo" src="framework/img/logo-llc-white.png">
+    <div class="info">
+        <h1>
+        <span class="title-bg">Publishing Your New Site</span><br>
+        </h1>
+        <h2><span>with</span> Sarah Etter</h2>
+
+        <img class="instructor-img" src="framework/img/sarah.png" alt="Sarah Etter">
+        <ul>
+        <li><i class="fa fa-envelope"></i><a href="mailto:sarah@sarahetter.com">sarah@sarahetter.com</a></li>
+        <li><i class="fa fa-desktop"></i><a href="http://sarahetter.com">sarahetter.com</a></li>
+        <li><i class="fa fa-twitter"></i><a href="https://twitter.com/SarahEtterSK">@SarahEtterSK</a></li>
+        </ul>
+    </div>
+    </header>
+
+    <main>
+        <section class="slide" data-markdown>
+##Publishing Your New Site
+
+This slide deck is a quick overview on how to get your new website published and online with a web hosting company.
+
+###Outline
+* Web Hosting
+* Domain Names
+* FTP Basics
+        </section>
+
+        <section class="slide" data-markdown>
+## Web Hosting
+
+[![Varial](framework/img/workshop/varial-logo.png)](http://varialhosting.com/)
+
+Varial is a Saskatoon based web hosting company.  
+Use Coupon code: **LADIESLEARNINGCODE** for 10% off of hosting plans and domain names.
+
+Some alterntive options are:
+
+* [hover.com](http://hover.com)  
+* [dreamhost.com](http://dreamhost.com)  
+* [bluehost.com](http://bluehost.com)  
+        </section>
+
+        <section class="slide" data-markdown>
+## Web Hosting
+
+If you choose to use Varial, make sure to use our Coupon Code!
+
+![Coupon Code](framework/img/workshop/varial-coupon.png)
+        </section>
+
+        <section class="slide" data-markdown>
+##Getting Started with FTP
+###Glossary
+
+* **FTP** – This stands for **File Transfer Protocol**. That's a way of describing files are moved from one place to another. It's how you move  website files (HTML pages, images and PDFs) from your computer to your website.
+
+* **Host and Server** – For us these terms are basically interchangeable and refer to the place where your website resides. You move your files from your computer to a **server**, and the server will display them on the Internet.
+        </section>
+
+        <section class="slide" data-markdown>
+##Getting Started with FTP
+###Tools  
+
+* **[Filezilla](http://filezilla-project.org/download.php?type=client)** - The FTP client we will be using is Filezilla. Another good alternative is [Cyberduck](https://cyberduck.io/?l=en).
+
+[![Filezilla](framework/img/workshop/filezilla-logo.png)](http://filezilla-project.org/download.php?type=client)
+        </section>
+
+        <section class="slide" data-markdown>
+##Using Filezilla
+
+Your hosting service provider should provide you with these pieces of information: 
+
+* FTP Address  
+* Username  
+* Password  
+
+Enter that information here and click **Quickconnect**:
+
+![Filezilla](framework/img/workshop/filezilla-connect.png)
+        </section>
+
+       <section class="slide" data-markdown>
+##Using Filezilla
+
+The left panel shows your computer's files, the right panel shows the server's files.
+
+In the left panel, locate your workshop files (mine are on the desktop).
+
+In the right panel, locate the directory that the server displays on the domain. (If you are using Varial this is **public_html**)
+
+![](framework/img/workshop/ftp1.png)
+        </section>
+
+        <section class="slide" data-markdown>
+##Using Filezilla
+
+Select the workshop files, right click and choose **Upload**
+
+![](framework/img/workshop/ftp2.png)
+        </section>
+
+
+        <section class="slide" data-markdown>
+##Using Filezilla
+
+After uploading, you will see your files in the **public_html** folder on the server.
+
+![](framework/img/workshop/ftp3.png)
+        </section>
+
+
+        <section class="slide" data-markdown>
+##Check it out!
+
+Your site is now uploaded! Check out your domain to see the changes!
+
+If you just got your domain name, it may not have enough time to resolved to the domain name servers. In this case, try checking out your site on the IP address your webhost gave you.
+
+![](framework/img/workshop/project-website.png)
+        </section>
+
+        <!-- Last slide -->
+        <section class="slide">
+            <h2>Thank you!</h2>
+            <p>Happy FTP-ing :D</p>
+            <p class="attribution">Slide deck presentation created with <a href="https://github.com/LeaVerou/csss">Lea Verou's CSS-based SlideShow System</a> and <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>.</p>
+        </section>
+
+    </main><!-- cls main section -->
+
+
+    <footer>
+        <p class="license"><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.svg" /></a> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ladies Learning Code</a></p>
+        <p class="instructions">Use the left <i class="fa fa-arrow-left"></i> and right <i class="fa fa-arrow-right"></i> arrow keys to navigate</p>
+    </footer>
+
+    <script src="framework/scripts/slideshow.js"></script>
+
+    <!-- Uncomment the plugins you need -->
+    <script src="framework/scripts/plugins/css-edit.js"></script>
+    <script src="framework/scripts/plugins/css-snippets.js"></script>
+    <script src="framework/scripts/plugins/css-controls.js"></script>
+    <!-- <script src="plugins/code-highlight.js"></script>-->
+
+    <script src="framework/scripts/plugins/markdown/marked.js"></script>
+    <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+    <script src="framework/scripts/plugins/highlight/highlight.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- Prettify -->
+    <script src="framework/scripts/plugins/prettify.js"></script>
+    <script src="framework/scripts/plugins/lang-css.js"></script>
+    <script src="framework/scripts/plugins/prism.js"></script>
+
+    <script>
+    var slideshow = new SlideShow();
+
+    // Grabs all the .snippet elements
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+        new CSSSnippet(snippets[i]);
+    }
+    </script>
+</body>
+</html>
